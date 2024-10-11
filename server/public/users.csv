@@ -1,0 +1,3 @@
+FirstName,LastName,Email,Phone,Gender,Status,Location,DateCreated,DateUpdated
+John,Doe,john@example.com,1234567890,Male,Active,New York,2024-09-20,
+shubham,kumar,shubham@example.com,1234588890,Male,InActive,New York,2024-09-29,
