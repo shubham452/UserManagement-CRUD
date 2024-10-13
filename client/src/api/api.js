@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = "http://localhost:3000/user";
+const url = "https://usermanagement-crud-api.onrender.com/user";
 
 export const registerUser = async(data)=>{
     try{
@@ -66,7 +66,7 @@ export const deleteUser = async(id)=>{
 
 export const exporttocsvfunc = async () => {
     try {
-        const response = await axios.get(`http://localhost:3000/files/export/user_data.csv`, {
+        const response = await axios.get(`https://usermanagement-crud-api.onrender.com/files/export/user_data.csv`, {
             responseType: 'blob',
         });
         return response;
